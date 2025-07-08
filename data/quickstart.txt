@@ -1,0 +1,12 @@
+Retrieval-Augmented Generation (RAG) is an approach that augments a language model with relevant context retrieved from an external knowledge base. 
+
+Pipeline steps:
+1. Ingest documents into a vector database.
+2. Encode queries and documents with dense or hybrid embeddings.
+3. Retrieve top-k relevant chunks.
+4. Feed retrieved context plus the question into the LLM to generate a grounded answer.
+
+Benefits:
+• Up-to-date answers without retraining the model.
+• Transparent citations.
+• Smaller, cheaper base models.

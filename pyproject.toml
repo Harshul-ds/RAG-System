@@ -1,0 +1,37 @@
+[project]
+name = "rag-system-prototype"
+version = "0.1.0"
+description = "A production-ready RAG pipeline prototype."
+authors = [{ name = "Cascade" }]
+requires-python = ">=3.9"
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "boto3",
+    "chromadb",
+    "sentence-transformers",
+    "pandas",
+    "numpy",
+    "ragas",
+    "python-dotenv",
+    "ipykernel",
+    "unstructured",
+    "docx2txt",
+    "rank_bm25",
+    "flashrank",
+    "fastapi==0.109.*",
+
+    "uvicorn[standard]",
+    "click",
+    "h11",
+    "starlette",
+    "pydantic==1.10.*",
+    "typing-extensions",
+
+
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
