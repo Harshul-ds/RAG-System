@@ -1,6 +1,6 @@
 # RAG System 
 
-This project is a production-ready prototype of a Retrieval-Augmented Generation (RAG) pipeline. It's designed to ingest documents, store them in a vector database, and use a large language model (LLM) on AWS Bedrock to answer questions based on the provided context.
+This project is a production-ready, end-to-end Retrieval-Augmented Generation (RAG) pipeline. It's designed to ingest documents, store them in a vector database, and use a large language model (LLM) on AWS Bedrock to answer questions based on the provided context.
 
 ## Features
 
